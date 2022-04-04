@@ -8,6 +8,7 @@ import (
 
 func main() {
 	router := gin.Default()
+	println("test")
 
 	router.GET("/hello", func(ctx *gin.Context) {
 		ctx.JSON(200, gin.H{
