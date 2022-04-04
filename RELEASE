@@ -2,3 +2,6 @@ tag: v0.0.1
 
 releaseNoteGenerator:
   usePullRequestMetadata: true
+  commitInclude:
+    prefixes:
+        - "Merge pull request"
