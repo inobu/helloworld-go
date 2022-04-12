@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v2.4.0
         with:
           fetch-depth: 0
-      - uses: pipe-cd/actions-gh-release@v2.3.2
+      - uses: inobu/actions-gh-release@963e8e4a2c993901062d15471706f8ae277df68e
         with:
           release_file: '**/RELEASE'
           token: ${{ secrets.GITHUB_TOKEN }}
